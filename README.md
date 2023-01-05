@@ -1,31 +1,119 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Battle Ship Game
 
-Welcome JosefinLarsson,
+This is a small python project consisting of the classic game of Battle Ship. 
+The project intention is to provide a simple and user friendly game.
+The project is targeted against a wide range of users from all ages to provide a couple of minutes of simple entertainment.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+<!-- 
+<img src="assets/images/am-i-responsive-screenshot.png"> -->
+<br>
 
-## Reminders
+## Project Goal
+<li>To show the developers ability to build a responsive game using Python.</li>
+<br>
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+## Target Audience
+<li>People of all ages who are interested in playing the classic game for a couple of minutes of entertainment.</li>
+<br>
 
-## Creating the Heroku app
+# Features
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+## Existing Features
 
-1. `heroku/python`
-2. `heroku/nodejs`
+### Game
+A 7 x 7 squares game where the user has 10 attempts to hit 4 ships to win the game. The computer generates a total of 5 battle ships on a hidden board not visible for the user.
+ <br>
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+## Potential future features to implement
+<br>
+<li>A username input to personalise the experience.</li>
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
-Connect your GitHub repository and deploy as normal.
 
-## Constraints
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
 
------
-Happy coding!
+# Testing
+
+| **Type**                | **Comment (note all tests performed both pre- and post-deployment** | **Passed** |
+|-------------------------|---------------------------------------------------------------------|------------|
+| Game functionality      | Manual testing to generate game play.                               | Yes        |
+| Result message          | Manual testing to ensure text appears as result message.            | Yes        |
+| Text content            | Manual testing to ensure correct text result message appears.       | Yes        |
+| Indentation and formats | Manual testing of code indentation and correct code formats.        | Yes        |
+
+
+<br>
+
+
+
+## Validator testing
+<br>
+
+
+
+## Fixed Bugs
+ <ul>
+ <li>Repaired game functionality</li>
+ <li>Repaired code indentation</li>
+ 
+ </ul>
+
+ ## Unfixed Bugs
+<li>No known bugs at this time.</li>
+
+<br>
+
+# Technology Used
+
+## Languages
+<li>Python</li>
+<br>
+
+## Tools and libraries
+<li>https://gitpod.io - to create and host the website.</li>
+<li>https://github.com- to deploy the website.</li>
+<li>https://heroku.com- to deploy and host the game.</li>
+<br>
+
+# Deployment
+The site was deployed to Heroku. The steps to deploy are as follows:
+<!-- <ol>
+<li>In the GitHub repository navigate to the Settings.
+<img src="assets/images/github-step1.png"></li>
+
+<br>
+<li>From the left-hand menu select Pages.
+<img src="assets/images/github-step2.png"></li>
+
+<br>
+<li>Under Build and deployment-Source-Branch. Select main branch and save.
+<img src="assets/images/github-step3.png"></li>
+
+<br>
+<li>Wait a couple of minutes and then refresh the page.
+At the top of the page your live link will be made available.
+<img src="assets/images/github-step4.png"></li>
+</ol>
+
+<br>
+
+The live link for this project can be found here -  -->
+
+<br>
+
+
+# Credits
+
+<li>General code was created from the developers own knowledge gained during Code Institute lessons on learning platform with particular focus on the "Love-Sandwiches" lesson but also highly influenced by the youtube video https://www.youtube.com/watch?v=tF1WRCrd_HQ by Knowledge Mavens.</li>
+
+
+<li>Additionally much research, understanding and inspiration was gained from Code Institute slack forums, Stackoverflow.com, Python.org. Additional research done via the following youtube videos https://www.youtube.com/watch?v=cwpS_ac8uk0&list=PL7Kw0NTafOcwRBM4vmOJ_0vDJhDjAE8s7&index=3 by Python Ninja and  https://www.youtube.com/watch?v=MgJBgnsDcF0&list=PL7Kw0NTafOcwRBM4vmOJ_0vDJhDjAE8s7&index=4&t=256s by CS Students.
+
+</li>
+<br>
+ 
+
+## Content
+<li>The game idea is an existing classic game played both online as well as offline but all text and code is written by the developer with the help of resources and credits listed above.</li>
+<br>
+
