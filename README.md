@@ -4,8 +4,8 @@ This is a small python project consisting of the classic game of Battle Ship.
 The project intention is to provide a simple and user friendly game.
 The project is targeted against a wide range of users from all ages to provide a couple of minutes of simple entertainment.
 
-<!-- 
-<img src="assets/images/am-i-responsive-screenshot.png"> -->
+
+<img src="assets/images/battleship-game-screenshot.png">
 <br>
 
 ## Project Goal
@@ -71,34 +71,31 @@ The project is targeted against a wide range of users from all ages to provide a
 <br>
 
 ## Tools and libraries
-<li>https://gitpod.io - to create and host the website.</li>
-<li>https://github.com- to deploy the website.</li>
+<li>https://gitpod.io - to create the game.</li>
+<li>https://github.com- to host the repository and code.</li>
 <li>https://heroku.com- to deploy and host the game.</li>
 <br>
 
 # Deployment
 The site was deployed to Heroku. The steps to deploy are as follows:
-<!-- <ol>
-<li>In the GitHub repository navigate to the Settings.
-<img src="assets/images/github-step1.png"></li>
+<ol>
+<li>In the Heroku app navigate to deployment.
 
 <br>
-<li>From the left-hand menu select Pages.
-<img src="assets/images/github-step2.png"></li>
+<li>From deployment method choose Github pages and connect to your Github repository by searching and connecting for the name.
+
 
 <br>
-<li>Under Build and deployment-Source-Branch. Select main branch and save.
-<img src="assets/images/github-step3.png"></li>
+<li>Scroll down and select manual deploy-deploy branch.</li>
+
 
 <br>
-<li>Wait a couple of minutes and then refresh the page.
-At the top of the page your live link will be made available.
-<img src="assets/images/github-step4.png"></li>
+<li>Wait a min for the message saying "Your app was successfully deployed". Below that message is a link saying view to allow access to the live app.</li>
 </ol>
 
 <br>
 
-The live link for this project can be found here -  -->
+The live link for this project can be found here - https://battle-ship-game.herokuapp.com/
 
 <br>
 
