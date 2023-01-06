@@ -21,7 +21,7 @@ The project is targeted against a wide range of users from all ages to provide a
 ## Existing Features
 
 ### Game
-A 7 x 7 squares game where the user has 10 attempts to hit 4 ships to win the game. The computer generates a total of 5 battle ships on a hidden board not visible for the user.
+<li>A 7 x 7 squares game where the user has 10 attempts to hit 4 ships to win the game or else game over. The computer generates a total of 5 battle ships on a hidden board not visible for the user.</li>
  <br>
 
 ## Potential future features to implement
@@ -48,8 +48,9 @@ A 7 x 7 squares game where the user has 10 attempts to hit 4 ships to win the ga
 
 ## Validator testing
 <br>
+<li>Code has been tested via pythontutor.org and no errors were found.</li>
 
-
+<br>
 
 ## Fixed Bugs
  <ul>

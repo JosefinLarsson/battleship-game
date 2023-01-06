@@ -47,14 +47,15 @@ def find_ship_location():
     """
     Function for user input to select row and column incl explanatory text.
     """
-    row = input("Please enter a row between 1-7: ")
+    row = input("Please enter a row between 1-7:\n")
+
     while row not in "1234567":
         print("Wrong, please enter a valid row")
-        row = input("Please enter a row between 1-7: ")
-    column = input("Please enter a column between A-G: ").upper()
+        row = input("Please enter a row between 1-7:\n ")
+    column = input("Please enter a column between A-G:\n ").upper()
     while column not in "ABCDEFG":
         print("Wrong, please select a valid column")
-        column = input("Please enter a column between A-G: ").upper()
+        column = input("Please enter a column between A-G:\n ").upper()
     return int(row) - 1, letters_to_numbers[column]
 
 
